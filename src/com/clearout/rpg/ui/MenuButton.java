@@ -19,8 +19,9 @@ public class MenuButton {
 		this.y = y;
 		width = 300;
 		height = 100;
+		
 
-		font = new BitmapFont(Gdx.files.internal("data/font/BlackText.fnt"), false);
+		font = new BitmapFont(Gdx.files.internal("data/font/whiteFont.fnt"), false);
 		style = new TextButtonStyle();
 		style.up = up;
 		style.down = down;
